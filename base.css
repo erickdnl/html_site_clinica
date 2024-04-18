@@ -1,0 +1,215 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #98daeb;
+    padding: 10px 20px 0px;
+}
+
+.menu h2 {
+    margin-left: 50px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    color: #0c3a47;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0; 
+}
+  
+.menu li {
+    display: block;
+}
+  
+.menu a {
+    text-decoration: none; 
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    color: #0c3a47; 
+    padding: 15px 12px; 
+    margin-left: 25px;
+    margin-bottom: 70px;
+    display: block;
+}
+  
+.menu a:hover {
+    background-color: #f0f0f0; 
+}
+  
+
+.header {
+    background-color: rgb(170, 232, 243);
+    min-height: 150px;
+}
+
+.imgheader {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 250px; 
+}
+  
+.imgheader img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c3a47; 
+    margin-bottom: 10px; 
+}
+
+.content h2 {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b4a5c; 
+    margin-bottom: 8px; 
+}
+
+.content p {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #043341; 
+    margin-bottom: 8; 
+}
+
+.content blockquote {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #043341; 
+    margin-bottom: 16px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    color: #0c3a47;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e2ecf3;
+}
+
+tfoot {
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    color: #0c3a47;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: rgb(170, 232, 243);
+    min-height: 150px;
+}
+
+.footer {
+    text-align: center; 
+}
+  
+.footer h3 {
+    color: #0c3a47;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+}
+  
+
+.social-icons {
+    text-align: center;
+}
+  
+.social-icons a {
+    display: inline-block;
+    margin: 0 20px; 
+}
+  
+.social-icons img {
+    width: 50px; 
+    height: auto;
+    border-radius: 50px;
+}
+
+
+fieldset {
+    color: #0c3a47;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 22px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #5b82b6;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #284d7e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+button[type="reset"] {
+    background-color:#bdecff;
+    margin-right: 10px;
+}
+  
+button[type="submit"] {
+    background-color: #bdecff;
+}
+  
+  button:hover {
+    opacity: 0.8;
+}
+  
+
+  
+
+
+  
